@@ -1,0 +1,67 @@
+.formContainer {
+  width: 100%;
+  height: auto;
+  margin-top: 3%;
+}
+
+.formHead {
+  font-size: 2rem;
+  font-family: "Alata", sans-serif;
+  text-align: center;
+  color: #246bce;
+}
+
+.form {
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-bottom: 3%;
+}
+
+.input {
+  width: 40%;
+  height: 20%;
+  padding: 1% 1%;
+  margin-bottom: 2%;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #3b3c36;
+}
+
+.textarea {
+  width: 40%;
+  height: 30%;
+  padding: 1% 1%;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #3b3c36;
+}
+
+.button {
+  margin-left: 16%;
+  margin-top: 1%;
+  background-color: #d1d3c9;
+  width: 12%;
+  padding: 1% 1%;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-family: "Alata", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 3%;
+}
+
+.button:hover {
+  color: #d1d3c9;
+  background-color: #246bce;
+}
+
+.icon {
+  width: 10%;
+  height: 10%;
+  margin-left: 2%;
+}
