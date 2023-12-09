@@ -1,0 +1,23 @@
+.navbarcontainer{
+    width: 100vw;
+    margin-top: 1%;
+}
+
+.orderedlist{
+    display: flex;
+    list-style: none;
+    margin-left: 65%;
+}
+
+.list{
+    padding: 2% 3%;
+    font-family: 'Alata',sans-serif;
+    font-size: 1.1rem;
+    color: #8c92ac;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.list:hover{
+    color: #246BCE;
+}

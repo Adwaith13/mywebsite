@@ -1,0 +1,29 @@
+.head {
+  width: 100vw;
+  height: fit-content;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+
+.intro {
+  color: #246BCE;
+  font-family: "Alata", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 1.5%;
+}
+
+.name {
+  color: #3B3C36;
+  font-family: "Alata", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 1.5%;
+  letter-spacing: 1px;
+}
+
+.do {
+  color: #8c92ac;
+  font-size: 3rem;
+  font-family: "Alata", sans-serif;
+  letter-spacing: 1px;
+}

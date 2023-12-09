@@ -1,0 +1,121 @@
+.projectDivision{
+    width: 100vw;
+    margin-top: 10%;
+    height: fit-content;
+}
+
+.heading{
+    text-align: center;
+    color: #246BCE;
+    font-family: 'Alata',sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.projectContainer{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    padding: 1% 2%;
+    margin-bottom: 2%;
+}
+
+.projects{
+    width: 100%;
+    height:48vh;
+    margin-top: 3%;
+    margin-right: 5%;
+    padding: 2% 1%;
+    border:2px solid #d1d3c9;
+    box-shadow: 10px 10px 12px #246BCE;;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.projects:hover {
+    transform: scale(1.05); /* Adjust the scaling factor as needed */
+  }
+
+.title{
+    color: #2f3033;
+    text-align: center;
+    font-family: 'Alata',sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 2%;
+}
+
+.title:hover{
+    color: #246BCE;
+}
+
+.description{
+    color: #3B3C36;
+    text-align: justify;
+    font-family: "Alata", sans-serif;
+    font-size: 1rem;
+    margin-top: 5%;
+    letter-spacing: 1px;
+}
+
+.skillContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8%;
+    padding: 1% 1%;
+    justify-content: center;
+}
+
+.skills{
+  padding: 2% 3%;
+  color: #246BCE;
+  font-family: 'Alata',sans-serif;
+  font-size: 1rem;
+  margin-left: 3%;
+  margin-top: 5%;
+  flex-grow: 1%;
+  margin-bottom: 2%;
+  background-color: #d1d3c9;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+}
+
+.skills:hover{
+    color: #d1d3c9;
+    background-color: #246BCE;;
+}
+
+.iconContainer{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.gitHubIcon{
+    color: black;
+    margin-left: 70%;
+}
+
+.webIcon{
+    color: black;
+    margin-left: 5%;
+}
+
+.button{
+    margin-left: 45%;
+    background-color: #d1d3c9;
+    padding: 10px 10px;
+    color: #2f3033;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Alata',sans-serif;
+    font-size: 1rem;
+    margin-bottom: 3%;
+}
+
+.button:hover{
+    color: #d1d3c9;
+    background-color: #246BCE;
+}
+
+

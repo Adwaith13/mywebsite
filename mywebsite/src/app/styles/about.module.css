@@ -1,0 +1,30 @@
+.aboutcontainer {
+  width: 100vw;
+  height: fit-content;
+  margin-top: 15%;
+}
+
+.abouthead {
+  text-align: center;
+  color: #246BCE;
+  font-family: "Alata", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+}
+
+.detailscontainer {
+  width: 50vw;
+  height: fit-content;
+  margin-left: 25%;
+}
+
+.details {
+  margin-top: 2%;
+  padding: 2% 2%;
+  justify-content: baseline;
+  font-family: "Alata", sans-serif;
+  color: #3b3c36;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  line-height: 140%;
+}
