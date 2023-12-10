@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import navbarstyle from "../styles/navbar.module.css";
@@ -9,7 +9,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuClick = () => {
-    setMenuOpen(!menuOpen );
+    setMenuOpen(!menuOpen);
   };
 
   const handleCloseClick = () => {
@@ -24,16 +24,22 @@ export default function Navbar() {
 
   return (
     <div className={navbarstyle.navbarcontainer}>
-      <Image width={25}
-      height={25}
-        src={hamburgermenu}
-        onClick={handleMenuClick}
-        className={navbarstyle.hamburger}
-      />
-
+      {!menuOpen && (
+        <Image
+          alt="hamburger-icon"
+          width={25}
+          height={25}
+          src={hamburgermenu}
+          onClick={handleMenuClick}
+          className={navbarstyle.hamburger}
+        />
+      )}
       {menuOpen && (
         <div className={navbarstyle.popup}>
           <Image
+            alt="cancel-icon"
+            width={25}
+            height={25}
             src={cancel}
             onClick={handleCloseClick}
             className={navbarstyle.cancel}

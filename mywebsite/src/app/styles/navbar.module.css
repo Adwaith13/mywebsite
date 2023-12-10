@@ -1,25 +1,72 @@
-.navbarcontainer{
-    width: 100vw;
-    margin-top: 1%;
-}
-.hamburger{
-    margin-left: 90%;
-}
-.orderedlist{
-    display: flex;
-    list-style: none;
-    margin-left: 85%;
+.navbarcontainer {
+  width: 100vw;
+  margin-top: 1%;
 }
 
-.list{
+/* Styles for desktop screens */
+@media (min-width: 768px) {
+  .hamburger {
+    margin-left: 88%;
+    cursor: pointer;
+  }
+
+  .popup {
+    width: 20%;
+    padding-bottom: 4%;
+    margin-left: 72%;
+    cursor: pointer;
+  }
+
+  .cancel {
+    margin-left: 78%;
+  }
+
+  .list {
     padding: 2% 3%;
-    font-family: 'Alata',sans-serif;
+    margin-left: 60%;
+    list-style: none;
+    font-family: "Alata", sans-serif;
     font-size: 1.1rem;
     color: #8c92ac;
     letter-spacing: 1px;
     cursor: pointer;
+  }
+
+  .list:hover {
+    color: #246bce;
+  }
 }
 
-.list:hover{
-    color: #246BCE;
+/* Styles for mobile screens */
+@media (max-width: 767px) {
+  .hamburger {
+    margin-left: 88%;
+    cursor: pointer;
+  }
+
+  .popup {
+    width: 40%;
+    padding-bottom: 4%;
+    margin-left: 55%;
+    cursor: pointer;
+  }
+
+  .cancel {
+    margin-left: 80%;
+  }
+
+  .list {
+    padding: 2% 3%;
+    margin-left: 30%;
+    list-style: none;
+    font-family: "Alata", sans-serif;
+    font-size: 1.1rem;
+    color: #8c92ac;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+
+  .list:hover {
+    color: #246bce;
+  }
 }

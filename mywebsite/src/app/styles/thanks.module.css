@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .heading {
+    text-align: center;
+    color: #ff4f00;
+    font-family: "Alata", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .heading {
+    text-align: center;
+    color: #ff4f00;
+    font-family: "Alata", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+}
