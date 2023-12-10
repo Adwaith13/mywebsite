@@ -53,7 +53,7 @@ export default function ContactMe() {
             disabled={state.submitting}
             className={contactFormStyle.button}
           >
-            Let's Connect
+            Let{"'"}s Connect
           </button>
         </form>
       </div>

@@ -6,7 +6,7 @@ export default function Header() {
     <div className={headerstyle.head}>
       <p className={headerstyle.intro}>👋 Hey, My Name is</p>
       <h1 className={headerstyle.name}>Adwaith Nair,</h1>
-      <h2 className={headerstyle.do}>and I'm a Software Engineer. 🚀</h2>
+      <h2 className={headerstyle.do}>and I{"'"}m a Software Engineer. 🚀</h2>
     </div>
   );
 }
