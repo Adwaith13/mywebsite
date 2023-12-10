@@ -18,7 +18,7 @@ export default function Navbar() {
 
   const handleResumeClick = () => {
     const resumeURL =
-      "https://docs.google.com/document/d/1ecRc2qZ4cP2iZANH1wEu1-dbe-qFMPlPWwAxmCHncaw/edit?usp=sharing";
+      "https://drive.google.com/file/d/1Vg0is2UvcanCrdYrq0Hl0Abe1a6lt_bB/view?usp=sharing";
     window.open(resumeURL, "_blank");
   };
 
