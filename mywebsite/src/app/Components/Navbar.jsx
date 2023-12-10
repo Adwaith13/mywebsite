@@ -1,14 +1,51 @@
-import React from "react";
-import navbarstyle from "../styles/navbar.module.css"
+"use client"
+import React, { useState } from "react";
+import Image from "next/image";
+import navbarstyle from "../styles/navbar.module.css";
+import hamburgermenu from "../assests/hamburgermenu.svg";
+import cancel from "../assests/cancel.svg";
 
 export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setMenuOpen(!menuOpen );
+  };
+
+  const handleCloseClick = () => {
+    setMenuOpen(false);
+  };
+
+  const handleResumeClick = () => {
+    const resumeURL =
+      "https://docs.google.com/document/d/1ecRc2qZ4cP2iZANH1wEu1-dbe-qFMPlPWwAxmCHncaw/edit?usp=sharing";
+    window.open(resumeURL, "_blank");
+  };
+
   return (
     <div className={navbarstyle.navbarcontainer}>
-      <ol className={navbarstyle.orderedlist}>
-        <li className={navbarstyle.list}>About Me</li>
-        <li className={navbarstyle.list}>Projects</li>
-        <li className={navbarstyle.list}>Contact Me</li>
-      </ol>
+      <Image width={25}
+      height={25}
+        src={hamburgermenu}
+        onClick={handleMenuClick}
+        className={navbarstyle.hamburger}
+      />
+
+      {menuOpen && (
+        <div className={navbarstyle.popup}>
+          <Image
+            src={cancel}
+            onClick={handleCloseClick}
+            className={navbarstyle.cancel}
+          />
+
+          <ol className={navbarstyle.orderedlist}>
+            <li className={navbarstyle.list} onClick={handleResumeClick}>
+              Resume
+            </li>
+          </ol>
+        </div>
+      )}
     </div>
   );
 }

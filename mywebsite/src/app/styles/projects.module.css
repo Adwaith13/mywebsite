@@ -14,7 +14,7 @@
 
 .projectContainer{
     width: 100vw;
-    height: fit-content;
+    height: 70vh;
     display: flex;
     padding: 1% 2%;
     margin-bottom: 2%;

@@ -2,11 +2,13 @@
     width: 100vw;
     margin-top: 1%;
 }
-
+.hamburger{
+    margin-left: 90%;
+}
 .orderedlist{
     display: flex;
     list-style: none;
-    margin-left: 65%;
+    margin-left: 85%;
 }
 
 .list{
