@@ -6,21 +6,21 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Swiptory",
+      title: "Musicart",
       description:
         "Swiptory is a social media platform where content is presented in the form of stories.",
-      stack: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Vercel"],
-      githubUrl: "https://github.com/Adwaith13/Swiptory",
-      websiteUrl: "https://swiptory-v6yg.vercel.app/",
+      stack: ["React.js", "Node.js", "Express.js", "MongoDB","Git", "JWT", "Vercel"],
+      githubUrl: "https://github.com/Adwaith13/Musicart",
+      websiteUrl: "https://musicart-delta.vercel.app/",
     },
     {
       id: 2,
-      title: "Job Listing",
+      title: "Swiptory",
       description:
-        "Job Listing is a job listing platform where recruiters can post jobs and handle their job posts.",
-      stack: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Vercel"],
-      githubUrl: "https://github.com/Adwaith13/job-listing",
-      websiteUrl: "https://job-listing-client.vercel.app/",
+        "Swiptory is a social media platform where content is presented in the form of stories.",
+      stack: ["React.js", "Node.js", "Express.js", "MongoDB","Git" ,"JWT", "Vercel"],
+      githubUrl: "https://github.com/Adwaith13/Swiptory",
+      websiteUrl: "https://swiptory-v6yg.vercel.app/",
     },
     {
       id: 3,
